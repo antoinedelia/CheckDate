@@ -5,11 +5,11 @@ import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-import javax.swing.JPanel;
 import javax.swing.JTextField;
 
 import Model.Traitement;
 
+@SuppressWarnings("serial")
 public class IHM extends JFrame implements ActionListener{
 	
 	private JTextField textFieldAnnee;
